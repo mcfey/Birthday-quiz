@@ -43,5 +43,7 @@ birthday = int(input("And the day? "))
 
 if birthmonth == "October" and birthday == 31:
     print("You were born on Halloween!")
+if birthmonth == month_name[todaymonth] and birthday = todaydate:
+    print("Happy birthday!")
 
 
