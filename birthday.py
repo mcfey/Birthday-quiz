@@ -37,8 +37,8 @@ todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
 name = input("Hello, what is your name? ")
-birthmonth = input("Hi " + name + ", what was the name of the month you were born in? ")
-birthyear = input("And what year were you born in, " +name+ "? ")
+birthmonth = input("Hi " + name + ", what was the name of the month you were born in? "))
+birthyear = int(input("And what year were you born in, " +name+ "? ")
 birthday = int(input("And the day? "))
 
 if birthmonth == "October" and birthday == 31:
@@ -50,9 +50,22 @@ if birthmonth == "December" or birthmonth == "January" or birthmonth == "Februar
     season = "winter"
 if birthmonth == "March" or "April" or "May":
     season = "spring"
-if birthmonth == June or July or August 
+if birthmonth == "June" or "July" or "August":
+    season = "summer"
+if birthmonth == "October" or "September" or "November":
+    season = "fall" 
+
+if year >= 1980 and <= 1989:
+    decade = "eighties"
+if year >= 1980 and <= 1989:
+    decade = "nineties"
+if year <= 1980:
+    decade = "stoneage"
+if year >= 2000:
+    decade = "two thousands"
 
 print(season)
+print(decade)
 
 
 
