@@ -50,6 +50,8 @@ if birthmonth == "December" or birthmonth == "January" or birthmonth == "Februar
     season = "winter"
 if birthmonth == "March" or "April" or "May":
     season = "spring"
+if birthmonth == June or July or August 
+
 print(season)
 
 
