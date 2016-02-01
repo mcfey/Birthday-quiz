@@ -46,8 +46,10 @@ if birthmonth == "October" and birthday == 31:
 if birthmonth == month_name[todaymonth] and birthday == todaydate:
     print("Happy birthday!")
 
-if birthmonth == "December" or "January" or "February":
+if birthmonth == "December" or birthmonth == "January" or birthmonth == "February":
     season = "winter"
+
+print(season)
 
 
 
