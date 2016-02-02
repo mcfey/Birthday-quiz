@@ -48,11 +48,11 @@ if birthmonth == month_name[todaymonth] and birthday == todaydate:
 
 if birthmonth == "December" or birthmonth == "January" or birthmonth == "February":
     season = "winter"
-if birthmonth == "March" or "April" or "May":
+if birthmonth == "March" or birthmonth == "April" or birthmonth == "May":
     season = "spring"
-if birthmonth == "October" or "September" or "November":
+if birthmonth == "October" or birthmonth == "September" or birthmonth == "November":
     season = "fall" 
-if birthmonth == "June" or "July" or "August":
+if birthmonth == "June" or birthmonth == "July" or birthmonth == "August":
     season = "summer"
 
 
