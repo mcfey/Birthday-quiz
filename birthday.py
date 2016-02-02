@@ -65,7 +65,7 @@ if birthyear <= 1980:
 if birthyear >= 2000:
     decade = "two thousands"
 
-print(name + ", you are a " + season + " baby of the " + decade)
+print(name + ", you are a " + season + " baby of the " + decade+ ".")
 
 
 
