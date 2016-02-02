@@ -50,10 +50,11 @@ if birthmonth == "December" or birthmonth == "January" or birthmonth == "Februar
     season = "winter"
 if birthmonth == "March" or "April" or "May":
     season = "spring"
-if birthmonth == "June" or "July" or "August":
-    season = "summer"
 if birthmonth == "October" or "September" or "November":
     season = "fall" 
+if birthmonth == "June" or "July" or "August":
+    season = "summer"
+
 
 if birthyear >= 1980 and birthyear <= 1989:
     decade = "eighties"
