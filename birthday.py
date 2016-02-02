@@ -55,13 +55,13 @@ if birthmonth == "June" or "July" or "August":
 if birthmonth == "October" or "September" or "November":
     season = "fall" 
 
-if year >= 1980 and <= 1989:
+if birthyear >= 1980 and birthyear <= 1989:
     decade = "eighties"
-if year >= 1980 and <= 1989:
+if birthyear >= 1990 and birthyear <= 1999:
     decade = "nineties"
-if year <= 1980:
-    decade = "stoneage"
-if year >= 2000:
+if birthyear <= 1980:
+    decade = "Stone Age"
+if birthyear >= 2000:
     decade = "two thousands"
 
 print(season)
