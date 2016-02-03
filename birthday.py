@@ -43,27 +43,28 @@ birthday = int(input("And the day? "))
 
 if birthmonth == "October" and birthday == 31:
     print("You were born on Halloween!")
-if birthmonth == month_name[todaymonth] and birthday == todaydate:
-    print("Happy birthday!")
+    if birthmonth == month_name[todaymonth] and birthday == todaydate:
+        print("Happy birthday!")
 
-if birthmonth == "December" or birthmonth == "January" or birthmonth == "February":
-    season = "winter"
-if birthmonth == "March" or birthmonth == "April" or birthmonth == "May":
-    season = "spring"
-if birthmonth == "October" or birthmonth == "September" or birthmonth == "November":
-    season = "fall" 
-if birthmonth == "June" or birthmonth == "July" or birthmonth == "August":
-    season = "summer"
+    else 
+        if birthmonth == "December" or birthmonth == "January" or birthmonth == "February":
+            season = "winter"
+        if birthmonth == "March" or birthmonth == "April" or birthmonth == "May":
+            season = "spring"
+        if birthmonth == "October" or birthmonth == "September" or birthmonth == "November":
+            season = "fall" 
+        if birthmonth == "June" or birthmonth == "July" or birthmonth == "August":
+            season = "summer"
 
 
-if birthyear >= 1980 and birthyear <= 1989:
-    decade = "eighties"
-if birthyear >= 1990 and birthyear <= 1999:
-    decade = "nineties"
-if birthyear <= 1980:
-    decade = "Stone Age"
-if birthyear >= 2000:
-    decade = "two thousands"
+        if birthyear >= 1980 and birthyear <= 1989:
+            decade = "eighties"
+        if birthyear >= 1990 and birthyear <= 1999:
+            decade = "nineties"
+        if birthyear <= 1980:
+            decade = "Stone Age"
+        if birthyear >= 2000:
+            decade = "two thousands"
 
 print(name + ", you are a " + season + " baby of the " + decade+ ".")
 
