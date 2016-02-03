@@ -43,9 +43,11 @@ birthday = int(input("And the day? "))
 
 if birthmonth == "October" and birthday == 31:
     print("You were born on Halloween!")
+
 else:
     if birthmonth == month_name[todaymonth] and birthday == todaydate:
         print("Happy birthday!")
+    
     else: 
         if birthmonth == "December" or birthmonth == "January" or birthmonth == "February":
             season = "winter"
@@ -55,6 +57,7 @@ else:
             season = "fall" 
         if birthmonth == "June" or birthmonth == "July" or birthmonth == "August":
             season = "summer"
+        
         if birthyear >= 1980 and birthyear <= 1989:
             decade = "eighties"
         if birthyear >= 1990 and birthyear <= 1999:
@@ -65,8 +68,7 @@ else:
             decade = "two thousands"
         if birthyear >= 2016: 
             decade = "future" 
-
-    else:
+            
         print(name + ", you are a " + season + " baby of the " + decade+ ".")
 
 
