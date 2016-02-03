@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Mary Feyrer
-Credit: Tess Snyder, Adam Glueck 
+Credit: Tess Snyder
 Assignment:
 
 Your program will ask the user the following questions, in this order:
