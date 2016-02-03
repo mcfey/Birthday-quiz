@@ -1,7 +1,7 @@
 """
 birthday.py
 Author: Mary Feyrer
-Credit: Tess Snyder
+Credit: Tess Snyder, Adam Glueck 
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -55,8 +55,6 @@ else:
             season = "fall" 
         if birthmonth == "June" or birthmonth == "July" or birthmonth == "August":
             season = "summer"
-
-
         if birthyear >= 1980 and birthyear <= 1989:
             decade = "eighties"
         if birthyear >= 1990 and birthyear <= 1999:
@@ -68,7 +66,8 @@ else:
         if birthyear >= 2016: 
             decade = "future" 
 
-print(name + ", you are a " + season + " baby of the " + decade+ ".")
+    else:
+        print(name + ", you are a " + season + " baby of the " + decade+ ".")
 
 
 
