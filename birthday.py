@@ -65,6 +65,8 @@ else:
             decade = "Stone Age"
         if birthyear >= 2000:
             decade = "two thousands"
+        if birthyear >= 2016 
+            decade = "the future" 
 
 print(name + ", you are a " + season + " baby of the " + decade+ ".")
 
